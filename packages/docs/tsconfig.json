@@ -1,7 +1,4 @@
 {
-  "compilerOptions": {
-    "jsx": "react"
-  },
   "extends": "@raccolabs-ignite-ui/ts-config/react.json",
   "include": ["src"]
 }

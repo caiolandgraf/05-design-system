@@ -1,14 +1,17 @@
 {
-  "name": "@ignite-ui/global",
+  "name": "@raccolabs-ignite-ui/global",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "release": "turbo run build --filter=!docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.11",
     "turbo": "^2.0.10"
   },
   "packageManager": "npm@10.8.2"

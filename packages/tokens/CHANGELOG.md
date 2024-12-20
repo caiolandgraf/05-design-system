@@ -1,5 +1,11 @@
 # @raccolabs-ignite-ui/tokens
 
+## 3.0.1
+
+### Patch Changes
+
+- teste
+
 ## 3.0.0
 
 ### Major Changes

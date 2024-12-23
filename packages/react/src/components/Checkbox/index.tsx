@@ -1,9 +1,12 @@
-import { Check } from 'phosphor-react'
-import { ComponentProps } from 'react'
-import { CheckboxContainer, CheckboxIndicator } from './styles'
+import { Check } from 'phosphor-react';
+import { ComponentProps } from 'react';
+import { CheckboxContainer, CheckboxIndicator } from './styles';
 
-export interface CheckboxProps
-  extends ComponentProps<typeof CheckboxContainer> {}
+export interface CheckboxProps extends ComponentProps<typeof CheckboxContainer> {
+  checked?: boolean;
+  onCheckedChange?: (checked: boolean) => void;
+  disabled?: boolean;
+}
 
 export function Checkbox(props: CheckboxProps) {
   return (

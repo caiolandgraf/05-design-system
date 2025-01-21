@@ -1,0 +1,4 @@
+import{j as t}from"./index-BsgkyEk6.js";import{useMDXComponents as n}from"./index-BVXH1tlS.js";import{ae as r,af as i}from"./index-nWLTEy5J.js";import{T as m}from"./TokensGrid-CTdcGw93.js";import{s as a}from"./index-D8tv1C4m.js";import"./index-DkGvG02X.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-B-vHpnjx.js";import"./iframe-BPcFkGcI.js";import"../sb-preview/runtime.js";import"./index-Dyv7Vr6G.js";import"./index-CHGET4sZ.js";import"./index-DrFu-skq.js";function s(o){const e={h1:"h1",p:"p",...n(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Tokens/Space"}),`
+`,t.jsx(e.h1,{id:"space",children:"Space"}),`
+`,t.jsx(e.p,{children:"Essas são os espaços utilizadas no Ignite UI"}),`
+`,t.jsx(i,{children:t.jsx(m,{tokens:a,hasRemValue:!0})})]})}function T(o={}){const{wrapper:e}={...n(),...o.components};return e?t.jsx(e,{...o,children:t.jsx(s,{...o})}):s(o)}export{T as default};

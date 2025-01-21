@@ -1,5 +1,12 @@
 # @raccolabs-ignite-ui/tokens
 
+## 4.0.0
+
+### Major Changes
+
+- new colors
+- 29f00c5: new colors :D
+
 ## 3.0.2
 
 ### Patch Changes
